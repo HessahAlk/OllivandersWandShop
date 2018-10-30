@@ -26,3 +26,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.card,
+.card:hover {
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.card:hover {
+  border-color: #2B60DE;
+  color: #F75D59;
+  cursor: pointer;
+}
+
+.card {
+  margin: 20px;
+}
